@@ -412,3 +412,4 @@ void resetCmdLine(devStruct *devStructPtr)
     devStructPtr->bufPtr = devStructPtr->recvBuf;
     devStructPtr->bufIdx = 0;
 }
+
