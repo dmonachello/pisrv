@@ -33,9 +33,9 @@ cliDef_t cmdArray[] =
     {cmdPrtFds,     "prtfds",       0},
     {cmdPrtNodes,   "prtnodes",     0},
     {cmdSetLogLvl,  "setloglvl",    1},
-    {cmdPingReq,    "pingReq",   0},
-    {cmdPrtStats,   "prtStats",  0},
-    {cmdRemCmd,     "remCmd",    2},
+    {cmdPingReq,    "pingReq",      0},
+    {cmdPrtStats,   "prtStats",     0},
+    {cmdRemCmd,     "remCmd",       2},
     {cmdLast}
 };
 
