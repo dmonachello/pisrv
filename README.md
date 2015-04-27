@@ -1,5 +1,7 @@
 Raspberry Pi server
+This is still a work in progress. Lots of TBD!!!
 
+Overview of major chunks:
 HelloProtocol:
 	The helloProtocol builds a node list by sending and receiving UDP broadcasts. 
 	The hello protocol creates a new tcpCmdClient when a new node is discovered.
