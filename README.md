@@ -1,1 +1,1 @@
-The syntax of the command is incorrect.
+Raspberry Pi server
