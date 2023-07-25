@@ -29,32 +29,31 @@ tcpConnSrv:
 	new tcpCmdSrv devices.
 	TCP port number:32000
 
-	+------+					+------+
-	| brain |					| brain |
-	+------+					+------+
-	      |						      |
++------+                           +-------+
+| brain |                          | brain |
++------+                           +-------+
+   |                                  |
++-----+                            +-----+
+| MSG |                            | CLI |
+| API |                            |     |
++-----+                            +-----+
+   |                                  |
+   |                                  |
++------+                            +------+
+| TCP  |                            | TCP  |
+| cmd  |                            | cmd  |
+|client|                            |server|
++------+                            +------+
+   |                                   |
+   |                                   |
++------+                           +------+
+| TCP  |                           | TCP  |
+|socket|                           |socket|
++------+                           +------+
+   |                                  |
+   |                                  |
+   +----------------------------------+
 
-- check queue routines - does remque work properly?
-
-
-
-	+-----+					+-----+
-	| MSG |					| CLI  |
-	| API   |					|         |
-	+-----+					+-----+
-	     |						    |
-	+-----+					+-----+
-	| TCP |					| TCP |
-	| cmd |					| cmd |
-	|client|				| server|
-	+-----+					+-----+
-	     |						    |
-	+-----+					+-----+
-	|  TCP |				| TCP  |
-	|socket|				|socket|
-	+-----+					+-----+
- 	    |               |  
-	   +-----------------------------------+
 
 debug counters
 
